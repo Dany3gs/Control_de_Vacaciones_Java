@@ -15,36 +15,36 @@ public class CocaCola {
                     clave = claveDep.nextInt();
 
         Scanner añosServicio = new Scanner(System.in);
-            int antiguedad;
+            int antigüedad;
                 System.out.println("Cuantos años lleva en la empresa? ");
-                    antiguedad = añosServicio.nextInt();
+                    antigüedad = añosServicio.nextInt();
         
 
-        if (clave == 1 && antiguedad == 1) {
+        if (clave == 1 && antigüedad == 1) {
             System.out.println("Al empleado " + nombre + " le pertenecen 6 días");
 
-        }  else if (clave == 1 && antiguedad >= 2 && antiguedad <= 6) {
+        }  else if (clave == 1 && antigüedad >= 2 && antigüedad <= 6) {
             System.out.println("Al empleado " + nombre + " le pertenecen 14 días");
 
-        }  else if (clave == 1 && antiguedad >= 7) {
+        }  else if (clave == 1 && antigüedad >= 7) {
             System.out.println("Al empleado  " + nombre + " le pertenecen 20 días");
 
-        }  else if (clave == 2 && antiguedad == 1) {
+        }  else if (clave == 2 && antigüedad == 1) {
             System.out.println("Al empleado " + nombre + " le pertenecen 7 días");
 
-        }  else if (clave == 2 && antiguedad >= 2 && antiguedad <= 6) {
+        }  else if (clave == 2 && antigüedad >= 2 && antigüedad <= 6) {
             System.out.println("Al empleado " + nombre + " le pertenecen 15 días");
 
-        }  else if (clave == 2 && antiguedad >= 7) {
+        }  else if (clave == 2 && antigüedad >= 7) {
             System.out.println("Al empleado  " + nombre + " le pertenecen 22 días");
 
-        }  else if (clave == 3 && antiguedad == 1) {
+        }  else if (clave == 3 && antigüedad == 1) {
             System.out.println("Al empleado " + nombre + " le pertenecen 10 días");
 
-        }  else if (clave == 3 && antiguedad >= 2 && antiguedad <= 6) {
+        }  else if (clave == 3 && antigüedad >= 2 && antigüedad <= 6) {
             System.out.println("Al empleado " + nombre + " le pertenecen 20 días");
 
-        }  else if (clave == 3 && antiguedad >= 7) {
+        }  else if (clave == 3 && antigüedad >= 7) {
             System.out.println("Al empleado  " + nombre + " le pertenecen 30 días");
 
         }  else {

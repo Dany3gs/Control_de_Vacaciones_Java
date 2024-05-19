@@ -20,7 +20,7 @@ public class CocaCola {
                     antiguedad = añosServicio.nextInt();
         
 
-        if (clave == 1 && antiguedad >= 1 && antiguedad < 2) {
+        if (clave == 1 && antiguedad == 1) {
             System.out.println("Al empleado " + nombre + " le pertenecen 6 días");
 
         }  else if (clave == 1 && antiguedad >= 2 && antiguedad <= 6) {
@@ -29,7 +29,7 @@ public class CocaCola {
         }  else if (clave == 1 && antiguedad >= 7) {
             System.out.println("Al empleado  " + nombre + " le pertenecen 20 días");
 
-        }  else if (clave == 2 && antiguedad >= 1 && antiguedad < 2) {
+        }  else if (clave == 2 && antiguedad == 1) {
             System.out.println("Al empleado " + nombre + " le pertenecen 7 días");
 
         }  else if (clave == 2 && antiguedad >= 2 && antiguedad <= 6) {
@@ -38,7 +38,7 @@ public class CocaCola {
         }  else if (clave == 2 && antiguedad >= 7) {
             System.out.println("Al empleado  " + nombre + " le pertenecen 22 días");
 
-        }  else if (clave == 3 && antiguedad >= 1 && antiguedad < 2) {
+        }  else if (clave == 3 && antiguedad == 1) {
             System.out.println("Al empleado " + nombre + " le pertenecen 10 días");
 
         }  else if (clave == 3 && antiguedad >= 2 && antiguedad <= 6) {
